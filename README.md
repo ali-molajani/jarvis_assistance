@@ -6,4 +6,4 @@ Yes i know better engines out there specially for TTS models there are very powe
 **Tools**: we are using `vosk lgraph model` for speech to text, using ollama and `phi3.5` to generate the answers, and `pytts3` to text to speech conversion.
 
 ## TODO:
-- [ ] replace the `pytts3` with (kokoro)[https://huggingface.co/hexgrad/Kokoro-82M]
+- [ ] replace the `pytts3` with [kokoro](https://huggingface.co/hexgrad/Kokoro-82M)
