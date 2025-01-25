@@ -121,7 +121,7 @@ class VoiceAssistant:
 
     def generate_response(self, text):
         try:
-            response = ollama.chat(model='opencoder', messages=[
+            response = ollama.chat(model='deepseek-r1:8b', messages=[
                 {'role': 'user', 'content': text}
             ])
             return response['message']['content']
