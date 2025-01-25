@@ -12,7 +12,7 @@ import webrtcvad
 class VoiceAssistant:
     def __init__(self, sample_rate=16000, frame_duration=30):
         # Initialize speech recognition
-        self.recognizer = vosk.Model("./vosk-model-en-us-0.22-lgraph")
+        self.recognizer = vosk.Model("./vosk-model-en-us-0.22")
         
         # Initialize text-to-speech
         self.speaker = pyttsx3.init()

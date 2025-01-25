@@ -7,5 +7,5 @@ Yes i know better engines out there specially for TTS models there are very powe
 
 ## TODO:
 - [ ] replace the `pytts3` with [kokoro](https://huggingface.co/hexgrad/Kokoro-82M)
-- [ ] use higher accuracy `vosk` model [vosk models](https://alphacephei.com/vosk/models) use main and past version
+- [X] use higher accuracy `vosk` model [vosk models](https://alphacephei.com/vosk/models) use main and past version
 - [X] replace the engine from `phi3.5` to `deepseek` [ollama deepseek](https://ollama.com/library/deepseek-r1) even `deepseek coder`
